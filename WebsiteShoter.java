@@ -22,9 +22,11 @@ public class WebsiteShoter {
 	    File screenshotFile = screenshotTaker.getScreenshotAs(OutputType.FILE);
 	    try {
 	        FileUtils.copyFile(screenshotFile, new File("/srv/ankit.png"));
-        } catch (IOException e) {
+            } catch (IOException e) {
 	        e.printStackTrace();
-        }
+            }
+            webDriver.quit();
+	    System.out.println("Finished");
     }
 
 }

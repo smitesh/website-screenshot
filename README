@@ -4,5 +4,6 @@ website-screenshot
 Given a website you have to take screenshot of the website and save as an image file.
 
 Dependencies for this include the following - 
-1) Download selenium java client and webdriver language bindings
-2) Add selenium jar and the dependent libraries is all what is required to run this utility.
+1) Download selenium java client and webdriver language bindings from - http://docs.seleniumhq.org/download
+2) Add selenium jar and the dependent libraries to classpath.
+3) You are all set to use this !
